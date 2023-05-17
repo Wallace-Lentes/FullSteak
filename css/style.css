@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-repeat: no-repeat;
+    background-image: url(https://catracalivre.com.br/wp-content/uploads/2019/05/istock-1095137768-910x607.jpg);
+    background-size:cover;
+}
+header{
+    /* background-image: url(./image.png); */
+    /* justify-content: space-between; */
+    flex-direction: row;
+    /* background-color: aqua; */
+    height: 70px;
+    /* background-size: 60% 150px; */
+    /* min-height: 150px; */
+    /* background-position:left; */
+    /* background-repeat: no-repeat; */
+    display: flex;
+    
+}
+div{
+    display: flex;
+    flex-direction: column;
+    height: 7px;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+    color: #c7c81d;
+    display: flex;
+    /* align-items: flex-start; */
+    font-weight: 300;
+    font-size: 20px;
+    /* width: fit-content; */
+    /* width: 100%; */
+    height: 50px;
+    padding: 5px 250px;
+
+}
+.name{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    color: #c7c81d;
+    font-size: 80px;
+    height: 30px;
+    
+}
+h3{
+    display: flex;
+    margin: 100px auto;
+    font-family: 'Rubik', sans-serif;
+    color: #c7c81d;
+    font-size: 20px;
+}
+nav{
+    
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    /* background-color: #facf39; */
+    height: 70px;
+}
+main{
+    /* background-color:azure ; */
+    padding: 50px ;
+    margin: 190px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    color: #c7c81d;
+}
+footer{
+    background-color: brown;
+    margin: 100px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    /* justify-content: end; */
+    align-items: center;
+    
+}
