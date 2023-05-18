@@ -5,40 +5,27 @@
 }
 body{
     background-repeat: no-repeat;
-    background-image: url(https://catracalivre.com.br/wp-content/uploads/2019/05/istock-1095137768-910x607.jpg);
+    background-image: url(https://www.istoedinheiro.com.br/wp-content/uploads/sites/17/2022/03/lanche-e1647528904478.jpg);
+    /* background-image: url(https://catracalivre.com.br/wp-content/uploads/2019/05/istock-1095137768-910x607.jpg); */
     background-size:cover;
 }
 header{
-    /* background-image: url(./image.png); */
-    /* justify-content: space-between; */
-    flex-direction: row;
-    /* background-color: aqua; */
+    background-image: url(https://cdn.discordapp.com/attachments/1105150862042607708/1108549430581399592/output-onlinepngtools_1.png);
+    justify-content: center;
     height: 70px;
-    /* background-size: 60% 150px; */
-    /* min-height: 150px; */
-    /* background-position:left; */
-    /* background-repeat: no-repeat; */
+    background-size: 50% 150px;
+    min-height: 150px;
+    background-position:center;
+    background-repeat: no-repeat;
     display: flex;
+    justify-content: space-between;
+    background-color: #913301;
+    /* flex-direction: column; */
+    /* align-items: flex-end; */
     
 }
-div{
-    display: flex;
-    flex-direction: column;
-    height: 7px;
-}
-h1{
-    font-family: 'Rubik', sans-serif;
-    color: #c7c81d;
-    display: flex;
-    /* align-items: flex-start; */
-    font-weight: 300;
-    font-size: 20px;
-    /* width: fit-content; */
-    /* width: 100%; */
-    height: 50px;
-    padding: 5px 250px;
 
-}
+
 .name{
     display: flex;
     font-family: 'Rubik', sans-serif;
@@ -46,13 +33,6 @@ h1{
     font-size: 80px;
     height: 30px;
     
-}
-h3{
-    display: flex;
-    margin: 100px auto;
-    font-family: 'Rubik', sans-serif;
-    color: #c7c81d;
-    font-size: 20px;
 }
 nav{
     
@@ -69,28 +49,28 @@ a{
     font-weight: 500;
     display: flex;
     flex-direction: row;
+    
     /* background-color: #facf39; */
     height: 70px;
 }
+
 main{
     /* background-color:azure ; */
-    padding: 50px ;
-    margin: 190px auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    
 }
 p{
     color: #c7c81d;
 }
-footer{
+/* footer{ 
     background-color: brown;
     margin: 100px auto;
     padding: 10px;
     display: flex;
     flex-direction:column;
-    /* justify-content: end; */
+    justify-content: end; 
     align-items: center;
     
-}
+}*/
