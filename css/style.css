@@ -3,14 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+.inicio{
     background-repeat: no-repeat;
     background-image: url(https://www.istoedinheiro.com.br/wp-content/uploads/sites/17/2022/03/lanche-e1647528904478.jpg);
     /* background-image: url(https://catracalivre.com.br/wp-content/uploads/2019/05/istock-1095137768-910x607.jpg); */
     background-size:cover;
 }
+.img-header{
+    /* background-color: #c7c81d; */
+    
+    
+    min-height: 150px;
+
+}
+
 header{
-    background-image: url(https://cdn.discordapp.com/attachments/1105150862042607708/1108549430581399592/output-onlinepngtools_1.png);
+    /* background-image: url(https://cdn.discordapp.com/attachments/1105150862042607708/1108549430581399592/output-onlinepngtools_1.png); */
+   
     justify-content: center;
     height: 70px;
     background-size: 50% 150px;
