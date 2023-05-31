@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat+Alternates&display=swap');
+
+body {
+    background-color: #C79F61;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: 'Bungee Inline', cursive;
+    color: #facf39;
+    margin: 20px;
+    -webkit-text-stroke: 1px #913301;
+}
+
+.paragraph {
+    margin-right: 200px;
+    padding-bottom: 20px;
+    width: 400px;
+    display: flex;
+    text-align: end;
+    font-size: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.width {
+
+    width: 200px;
+    margin-bottom: 20px;
+
+}
