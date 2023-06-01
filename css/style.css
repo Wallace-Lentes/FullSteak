@@ -15,17 +15,14 @@
     width: 500px;
     height: 100px ;
 }
-#botao-3{
-    padding-bottom: 20px;
-}
-#botao-1:hover{
+#botaoImagem:hover{
     transform: scale(1.1);
 }
-#botao-2{
+#botoesHeader{
     font-family: 'Bungee Inline', cursive;
     padding-top: 10px;
 }
-#botao-2:hover{
+#botoesHeader:hover{
     transform: scale(1.1);
 }
 header{ 
@@ -37,17 +34,7 @@ header{
     background-color: #913301;
 }
 
-
-/* .name{
-    display: flex;
-    font-family: 'Bungee Inline', cursive;
-    color: #c7c81d;
-    font-size: 80px;
-    height: 30px;
-    
-} */
 nav{
-    /* background-color: #c7c81d; */
     width: 30%;
     display: flex;
     align-items: center;
@@ -70,10 +57,6 @@ main{
     justify-content: flex-end;
     
 }
-/* p{
-    color: #c7c81d;
-} */
-
 
 /* footer{ 
     background-color: brown;
