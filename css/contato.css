@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat+Alternates&display=swap');
+
+body{
+    background: #C79F61; 
+
+}
+
+fieldset{
+    border: none;
+}
+
+label{
+
+}
+
+img{
+    height: 400px;
+    font-weight: ;
+}
+
+.contato{
+    display: flex;
+}
