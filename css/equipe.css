@@ -14,14 +14,23 @@ body {
     margin: 20px;
     -webkit-text-stroke: 1px #913301;
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .paragraph {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #1C1C1C;
+    font-weight: 600;
     margin-right: 200px;
     padding-bottom: 20px;
-    width: 400px;
+    width: 450px;
     display: flex;
     text-align: end;
     font-size: 20px;
+    align-self: self-end;
 }
 
 .images {
@@ -31,7 +40,7 @@ body {
 }
 
 .width {
-
+    filter: drop-shadow(11px 10px 15px #00000099);
     width: 200px;
     margin-bottom: 20px;
 
