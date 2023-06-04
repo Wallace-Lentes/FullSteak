@@ -1,32 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.inicio{
+
+@media(max-width: 100px) {
+    header {
+        width: 100px;
+    }
+
+
+}
+
+.inicio {
     background-repeat: no-repeat;
     background-image: url(./imagens/hambu.jpg);
-    background-size:cover;
+    background-size: cover;
 }
-.img-header{
+
+.img-header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 500px;
-    height: 100px ;
+    height: 100px;
 }
-#botaoImagem:hover{
+
+#botaoImagem:hover {
     transform: scale(1.1);
 }
-#botoesHeader{
+
+#botoesHeader {
     font-family: 'Bungee Inline', cursive;
     padding-top: 10px;
 }
-#botoesHeader:hover{
+
+#botoesHeader:hover {
     transform: scale(1.1);
 }
-header{ 
-    
+
+header {
+
     justify-content: center;
     min-height: 100px;
     display: flex;
@@ -34,28 +48,29 @@ header{
     background-color: #913301;
 }
 
-nav{
+nav {
     width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
-a{
+
+a {
     color: #facf39;
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
     height: 70px;
 }
 
-main{
+main {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    
+
 }
 
 /* footer{ 
