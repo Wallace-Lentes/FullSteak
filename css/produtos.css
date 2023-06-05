@@ -1,4 +1,4 @@
-
+/* estilização da section com a class produto */
 .produto{
   width:100vw;
   background: #C79F61;
@@ -11,6 +11,7 @@
   align-items: center;
 }
 
+/* estilização do titulo da section */
 .produto h1 {
   font-size: 4rem;
   font-family: 'Bungee Inline', cursive;
@@ -19,6 +20,7 @@
   -webkit-text-stroke: 1px #913301;
 }
 
+/* estilização da ul com class container que envolve todo o cardapio */
 .container-cardapio {
   position: relative;
   max-width: 1100px;
@@ -29,6 +31,7 @@
   padding: 10px 30px;
 }
 
+/* estilização do li com a class card que são todos os cards do cardapio */
 .card-lanche {
   position: relative;
   max-width: 260px;
@@ -44,10 +47,12 @@
   border-left: 1px solid rgba(255,255,255, 0.5);
 }
 
+/* psudo-classe que aumenta o tamanho dos cards */
 .card-lanche:hover{
   transform: scale(1.03);
 }
 
+/* estilização da imagem que vai no card */
 .card-lanche .imgBx {
   display: flex;
   justify-content: center;
@@ -60,7 +65,7 @@
   filter: drop-shadow(4px 4px 4px #242424);
 }
 
-
+/* padronização do conteudo que vai dentro do card */
 .card-lanche .conteudo-descricao {
   font-family: 'Montserrat Alternates', sans-serif;
   position: relative;
@@ -71,6 +76,7 @@
   gap: 10px;
 }
 
+/* estilização especifica do paragrafo dentro do card */
 .card-lanche .conteudo-descricao p {
   font-size: 14px;
   font-weight: 600;
@@ -79,7 +85,8 @@
   height: 130px;
 }
 
-.card-lanche .conteudo-descricao a {
+/* estilização do botão que vai no card */
+.card-lanche .conteudo-descricao button {
   position: relative;
   display: flex;
   gap: 10px;
@@ -89,10 +96,15 @@
   padding: 8px 20px;
   margin-top: 15px;
   background: #913301;
+  border: none;
   border-radius: 10px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1rem;
+  color: #facf39;
 }
 
-.card-lanche .conteudo-descricao a:hover {
+/* psudo-classe que quando o mouse passar por cima vai mudar a estilização do botão */
+.card-lanche .conteudo-descricao button:hover {
   color: #fff;
   background: rgba(255, 255, 255, 0);
   border: 2px solid #fff;
