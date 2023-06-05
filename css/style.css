@@ -16,6 +16,8 @@
     background-repeat: no-repeat;
     background-image: url(./imagens/hambu.jpg);
     background-size: cover;
+    background-color: #121212;
+    background-size: 100% 200%;
 }
 
 .img-header {
@@ -27,6 +29,14 @@
 }
 
 #botaoImagem:hover {
+    /* width: 400px; */
+    height: 90px ;
+    /* background-color: #facf39; */
+    
+
+}
+
+#botaoImagem:hover{
     transform: scale(1.1);
 }
 
@@ -48,7 +58,9 @@ header {
     background-color: #913301;
 }
 
-nav {
+nav{
+    margin-bottom: 20px;
+    /* background-color: #facf39; */
     width: 30%;
     display: flex;
     align-items: center;
@@ -72,7 +84,20 @@ main {
     justify-content: flex-end;
 
 }
-
+footer {
+    position:auto;
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    padding: 11px;
+  }
+  
+p{
+    text-align: center;
+    color: aliceblue;
+}
 /* footer{ 
     background-color: brown;
     margin: 100px auto;
@@ -83,7 +108,3 @@ main {
     align-items: center;
     
 } */
-
-
-
-/* stilizcao tala pag */
