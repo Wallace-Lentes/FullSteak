@@ -85,13 +85,13 @@ main {
 
 }
 footer {
-    position:relative;
+    position:;
     
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: black;
-    padding: 11px;
+    padding: 20px 50px;
   }
   
 p{
