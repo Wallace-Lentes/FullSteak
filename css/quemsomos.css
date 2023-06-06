@@ -1,27 +1,34 @@
+/* importado codigo da fonte do google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat+Alternates:wght@300&display=swap');
-
+/* reset css */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
+
+/* definida a cor padrão do fundo da página */
 body{
     background-color:  #C79F61;
 }
+/* inserido display flex na div de conteudo principal para alinhamento  */
 .conteudoprincipal{
     display: flex;
 
 }
+/* inserida imagem de fundo */
 .imagemdefundo{
     height: 900px;
 }
+/* Estilização da div criada para unir os paragráfos do texto em um bloco e definir a centralização ao lado da página*/
 .textocompleto{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+/* Estilização do titulo da página com a fonte e cor definida como padrao */
 .tituloprincipal{
     font-family: 'Bungee Inline', cursive;
     color: #facf39;
@@ -29,6 +36,8 @@ body{
     margin: 20px;
     -webkit-text-stroke: 1px #913301;
 }
+/* Estilização do texto com divisão dos paragrafos para alinhar o tamanho, espessura e cor da fonte */
+
 .paragrafo{
     font-family: 'Montserrat Alternates', sans-serif;
     color: #1C1C1C;
