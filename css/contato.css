@@ -11,6 +11,7 @@ fieldset{
 
 
 
+
 img{
 
     display: flex;
@@ -18,22 +19,35 @@ img{
 
     height: 400px;
 
-    
+}
+
+.imgHamburgue{
+
+    display: flex;
+    height:600px;
+ 
+
 }
 
 .contato{
     display: flex;
 
+
     justify-content: center;
     align-items: center;
   
+
+
+    justify-content: center;
+    align-items: center;
+    
 
     
 }
 
 h1{
     font-size: 4rem;
-  font-family: 'Bungee Inline', cursive;
+    font-family: 'Bungee Inline', cursive;
   color: #facf39;
   margin-top: 20px;
   -webkit-text-stroke: 1px #913301;
@@ -92,7 +106,7 @@ label{
     
 }
 
-button {
+.button {
   position: relative;
   display: flex;
   gap: 10px;

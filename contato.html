@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
 
+<html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,7 +23,7 @@
     </nav>
     <nav>
       <a href="index.html">
-        <img id="botaoImagemHeader" class="imagemHeader" src="./css/imagens/fotocabeça.png" alt="" />
+        <img id="botaoImagem" class="img-header" src="./css/imagens/fotocabeça.png" alt="" />
       </a>
     </nav>
     <nav>
@@ -31,10 +33,10 @@
   </header>
   <main>
     <section class="contato">
-      <img src="./css/imagens/Imagem contato.png" alt="hamburguer" />
+      <img class="imgHamburgue" src="./css/imagens/photo-1607013251379-e6eecfffe234.avif" alt="hamburguer" />
       <div class="formulario">
         <h1>CONTATO</h1>
-        <form action="-" method="-">
+        <form class="caixaForm" action="-" method="-">
           <fieldset>
             <label for="name">Nome:</label>
             <input type="text" id="name" />
@@ -45,23 +47,25 @@
           </fieldset>
           <fieldset>
             <label for="msg">Mensagem:</label>
-            <textarea id="msg"></textarea>
+            <textarea class="mensagem" id="msg"></textarea>
           </fieldset>
-          <div class="button">
-            <button type="submit">Enviar</button>
+          <div class="leftbutton">
+            <button class="button" type="submit">Enviar</button>
           </div>
         </form>
       </div>
     </section>
   </main>
-  <!-- Rodape com imagens de paginas de redes sociais -->
-  <footer>
-    <img class="imagemFooter" src="./css/imagens/instagram.png" alt="logoInstagram">
-    <img class="imagemFooter" src="./css/imagens/facebook.png" alt="logoFace">
-    <img class="imagemFooter" src="./css/imagens/whatsapp.png" alt="logoWhats">
-    <p>Todos os direitos reservados. <img src="./css/imagens/simbolo-de-copyright.png" alt="simbolo"></p>
-   
+  <footer class="rodapeIndex">
+    <img class="imagemFooter" src="./css/imagens/instagram.png" alt="logoInstagram" />
+    <img class="imagemFooter" src="./css/imagens/facebook.png" alt="logoFace" />
+    <img class="imagemFooter" src="./css/imagens/whatsapp.png" alt="logoWhats" />
+    <p>
+      Todos os direitos reservados.
+      <img src="./css/imagens/simbolo-de-copyright.png" alt="simbolo" />
+    </p>
   </footer>
 </body>
+
 
 </html>
