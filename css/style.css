@@ -84,8 +84,11 @@ main {
     justify-content: flex-end;
 
 }
+.imagemMain{
+    padding-bottom:17%
+}
 footer {
-    position:;
+    
     
     left: 0;
     bottom: 0;
