@@ -14,13 +14,18 @@ label{
 }
 
 img{
+<<<<<<< HEAD
     display: flex;
     height:600px;
+=======
+    height: 400px;
+>>>>>>> e4c20e7d728b4a12c3fbb52bbff712dc85854c48
     
 }
 
 .contato{
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
     align-items: center;
     font-family: ;
@@ -104,4 +109,6 @@ button {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 1rem;
   color: #facf39;
+=======
+>>>>>>> e4c20e7d728b4a12c3fbb52bbff712dc85854c48
 }
