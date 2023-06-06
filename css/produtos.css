@@ -1,6 +1,5 @@
 /* estilização da section com a class produto */
 .produto{
-  width:100vw;
   background: #C79F61;
   padding: 10px;
   margin: 0 auto;
@@ -12,9 +11,10 @@
 }
 
 /* estilização do titulo da section */
-.produto h1 {
+.produto h2 {
   font-size: 4rem;
   font-family: 'Bungee Inline', cursive;
+  /* line-height: 7rem; */
   color: #facf39;
   margin-top: 20px;
   -webkit-text-stroke: 1px #913301;
@@ -45,6 +45,7 @@
   background: rgba(255, 255, 255, 0);
   border-top: 1px solid rgba(255,255,255, 0.5);
   border-left: 1px solid rgba(255,255,255, 0.5);
+  transition: 0.3s;
 }
 
 /* psudo-classe que aumenta o tamanho dos cards */
@@ -63,6 +64,11 @@
   left: -7%;
   top: -50px;
   filter: drop-shadow(4px 4px 4px #242424);
+}
+
+.tituloCard{
+  font-family:'Montserrat Alternates', sans-serif;
+  font-size: 1.5rem;
 }
 
 /* padronização do conteudo que vai dentro do card */
