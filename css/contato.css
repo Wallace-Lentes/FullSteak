@@ -14,10 +14,94 @@ label{
 }
 
 img{
-    height: 400px;
-    font-weight: ;
+    display: flex;
+    height:600px;
+    
 }
 
 .contato{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: ;
+
+    
+}
+
+h1{
+    font-size: 4rem;
+  font-family: 'Bungee Inline', cursive;
+  color: #facf39;
+  margin-top: 20px;
+  -webkit-text-stroke: 1px #913301;
+}
+.mensagem{
+   height: 100px;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+
+.formulario{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    /* min-width: 100%; */
+    gap: 10px;
+    height: 600px;
+    width: 64vw;
+    align-items: center;
+
+
+}
+
+label{
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: block;
+    padding: 2px;
+
+}
+
+.caixaForm{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    height: 250px;
+    padding: 30px;
+    border-radius: 20px;
+    filter: drop-shadow( 11px  8px  17px  #00000099);
+    
+}
+
+.button:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid #fff;
+}
+
+.leftbutton{
+    display: flex;
+    justify-content: end;
+    border-radius: 20px;
+    
+}
+
+button {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: #913301;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1rem;
+  color: #facf39;
 }
