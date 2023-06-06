@@ -13,29 +13,24 @@ label{
 
 }
 
-img{
-<<<<<<< HEAD
+.imgHamburgue{
+
     display: flex;
     height:600px;
-=======
-    height: 400px;
->>>>>>> e4c20e7d728b4a12c3fbb52bbff712dc85854c48
-    
+ 
 }
 
 .contato{
     display: flex;
-<<<<<<< HEAD
     justify-content: center;
     align-items: center;
     font-family: ;
-
     
 }
 
 h1{
     font-size: 4rem;
-  font-family: 'Bungee Inline', cursive;
+    font-family: 'Bungee Inline', cursive;
   color: #facf39;
   margin-top: 20px;
   -webkit-text-stroke: 1px #913301;
@@ -94,7 +89,7 @@ label{
     
 }
 
-button {
+.button {
   position: relative;
   display: flex;
   gap: 10px;
@@ -109,6 +104,5 @@ button {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 1rem;
   color: #facf39;
-=======
->>>>>>> e4c20e7d728b4a12c3fbb52bbff712dc85854c48
+
 }

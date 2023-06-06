@@ -52,19 +52,18 @@ a {
     height: 70px;
 }
 
-<<<<<<< HEAD
 main{
     display: flex;
     flex-direction: row;
     /* justify-content: flex-end;  */
-    
-=======
+}
+
 /* Definição de tamanho da imagem da logo no header  */
 .imagemHeader {
 
     width: 500px;
     height: 100px;
->>>>>>> e4c20e7d728b4a12c3fbb52bbff712dc85854c48
+
 }
 
 /* Quando passar com mouse por cima do logo no header, a imagem aumenta um pouco sinalizando que se clicado vai ser redirecionado para outra página.  */

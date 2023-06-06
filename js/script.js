@@ -9,7 +9,7 @@ function adicionarCarrinho(){
 
       // após inicializado vamos coletar do usuario atraves do prompt a quantidade do item que ele deseja e armazenar na variavel qtdItem;
       var qtdItem = prompt('Quantidade que deseja do item? ( caso não queira digite 0 )');
-
+      
       // após receber o número, vamos verificar atraves de uma condição se o que foi digitado é um número ou string e se o número é maior ou igual a zero, usamos o Number para forçar a converção e fazer a verificação;
       if(Number(qtdItem) == qtdItem && Number(qtdItem) >= 0 ){
 
