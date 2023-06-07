@@ -1,70 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./css/imagens/favicon.ico"
+      width="32"
+      height="32"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat+Alternates&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/contato.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Contato</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="./css/imagens/favicon.ico" width="32" height="32" type="image/x-icon" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat+Alternates&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./css/contato.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <title>Contato</title>
-</head>
-
-<body>
-  <header>
-    <nav>
-      <a id="botoesHeader" href="quemsomos.html">Quem somos</a>
-      <a id="botoesHeader" href="equipe.html">Nossa equipe</a>
-    </nav>
-    <nav>
-      <a href="index.html">
-        <img id="botaoImagemHeader" class="imagemHeader" src="./css/imagens/fotocabeça.png" alt="" />
-      </a>
-    </nav>
-    <nav>
-      <a id="botoesHeader" href="produtos.html">Produtos</a>
-      <a id="botoesHeader" href="contato.html">Contato</a>
-    </nav>
-  </header>
-  <main>
-    <section class="contato">
-      <img class="imgHamburgue" src="./css/imagens/photo-1607013251379-e6eecfffe234.avif" alt="hamburguer" />
-      <div class="formulario">
-        <h2>CONTATO</h2>
-        <form class="caixaForm" action="-" method="-">
-          <fieldset>
-            <label for="name">Nome:</label>
-            <input class="textename" type="text" id="name" />
-          </fieldset>
-          <fieldset>
-            <label for="mail">E-mail:</label>
-            <input class="texteemail" type="email" id="mail" required/>
-          </fieldset>
-          <fieldset>
-            <label for="msg">Mensagem:</label>
-            <textarea class="mensagem" id="msg"></textarea>
-          </fieldset>
-          <div class="leftbutton">
-            <button class="button" type="submit">Enviar</button>
-          </div>
-        </form>
+  <body>
+    <header>
+      <nav>
+        <a id="botoesHeader" href="quemsomos.html">Quem somos</a>
+        <a id="botoesHeader" href="equipe.html">Nossa equipe</a>
+      </nav>
+      <nav>
+        <a href="index.html">
+          <img
+            id="botaoImagemHeader"
+            class="imagemHeader"
+            src="./css/imagens/fotocabeça.png"
+            alt=""
+          />
+        </a>
+      </nav>
+      <nav>
+        <a id="botoesHeader" href="produtos.html">Produtos</a>
+        <a id="botoesHeader" href="contato.html">Contato</a>
+      </nav>
+    </header>
+    <main>
+      <section class="contato">
+        <img
+          class="imgHamburgue"
+          src="./css/imagens/photo-1607013251379-e6eecfffe234.avif"
+          alt="hamburguer"
+        />
+        <div class="formulario">
+          <h2>CONTATO</h2>
+          <form class="caixaForm" action="" method="">
+            <fieldset>
+              <label for="name">Nome:</label>
+              <input class="textename" type="text" id="name" />
+            </fieldset>
+            <fieldset>
+              <label for="mail">E-mail:</label>
+              <input class="texteemail" type="email" id="mail" required />
+            </fieldset>
+            <fieldset>
+              <label for="msg">Mensagem:</label>
+              <textarea class="mensagem" id="msg"></textarea>
+            </fieldset>
+            <div class="leftbutton">
+              <button class="button" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- Rodape com imagens de paginas de redes sociais -->
+    <footer>
+      <div class="blocoFooter">
+        <img
+          class="imagemFooter"
+          src="./css/imagens/logotipo-do-instagram.png"
+          alt="logoInstagram"
+        />
+        <img
+          class="imagemFooter"
+          src="./css/imagens/facebook.png"
+          alt="logoFace"
+        />
+        <img
+          class="imagemFooter"
+          src="./css/imagens/whatsapp.png"
+          alt="logoWhats"
+        />
       </div>
-    </section>
-  </main>
-  <!-- Rodape com imagens de paginas de redes sociais -->
-  <footer>
-    <div class="blocoFooter">
-    <img class="imagemFooter" src="./css/imagens/logotipo-do-instagram.png" alt="logoInstagram" />
-    <img class="imagemFooter" src="./css/imagens/facebook.png" alt="logoFace" />
-    <img class="imagemFooter" src="./css/imagens/whatsapp.png" alt="logoWhats" />
-    </div>
-    <p>Todos os direitos reservados.</p>
-  </footer>
-</body>
-
+      <p>Todos os direitos reservados.</p>
+    </footer>
+  </body>
 </html>

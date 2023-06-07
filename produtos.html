@@ -23,6 +23,7 @@
   </head>
 
   <body>
+    <!-- Cabeçalho composto com o logo da empresa e os links que chamam as paginas de quem somos, nossa equipe, produtos e contato. -->
     <header>
       <nav>
         <a id="botoesHeader" href="quemsomos.html">Quem somos</a>
@@ -44,10 +45,14 @@
       </nav>
     </header>
     <main>
+      <!-- section com conteudo principal da pagina -->
       <section class="produto" id="produto">
+        <!-- titulo da pagina -->
         <h2>Lanches.</h2>
+        <!-- lista de cards com o cardapio -->
         <ul class="container-cardapio">
           <li class="card-lanche">
+            <!--imagem do card  -->
             <div class="imgBx">
               <img
                 src="./css/imagens/hambuguer-1.png"
@@ -56,6 +61,7 @@
                 height="150"
               />
             </div>
+            <!-- conteudo do card temos o titulo e uma descrição -->
             <div class="conteudo-descricao">
               <h3 class="tituloCard">Deburgão</h3>
               <p>
@@ -63,8 +69,10 @@
                 picles, queijo e um suculento hambúrguer. Todos esses
                 ingredientes são fresquinho e de alta qualidade.
               </p>
+              <!-- button que chama a função de adicionar carrinho -->
               <button onclick="adicionarCarrinho()">
                 <span>R$27,90</span>
+                <!-- imagem do carrinho de compras -->
                 <img
                   src="./css/imagens/carrinho-de-compras.png"
                   alt="icone em forma de carrinho de compras"
