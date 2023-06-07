@@ -18,7 +18,7 @@
     background-image: url(./imagens/hambu.jpg);
     background-size: cover;
     background-color: #121212;
-    background-size: 100% 200%;
+    background-size: 100% 190%;
 }
 
 /* Conteudos dentro do header alinhados.  */
@@ -57,10 +57,15 @@ a {
 .mainIndex{
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-end;  */
+    
     
 }
 
+
+.imagemMain{
+    width: 400px;
+    height:220px ;
+}
 
 /* Definição de tamanho da imagem da logo no header  */
 .imagemHeader {
@@ -110,6 +115,7 @@ footer {
 /* Rodapé da pagina inicial fixada no final da tela.  */
 .rodapeIndex {
     position: fixed;
+    padding: 5px;
 }
 
 
