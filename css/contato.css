@@ -1,21 +1,22 @@
-fieldset{
+fieldset{ 
     border: none;
 }
+/* tirar bordas do fieldset */
 
 .contato{
     background: #C79F61; 
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: center;
-    align-items: center; 
 }
+/* Cor de fundo e disposição dos Itens */
 
 
 .imgHamburgue{
     display: flex;
     height:700px;
 }
+/* Alteramos a altura e inserimos o flex */
 
 
 h2{
@@ -25,6 +26,7 @@ h2{
     margin-top: 20px;
     -webkit-text-stroke: 1px #913301;
 }
+/* Estilização do H2, tamanho e fonte. */
 
 
 
@@ -32,13 +34,13 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content:center;
-    /* min-width: 100%; */
     gap: 10px;
     height: 600px;
     width: 1400px;
     align-items: center;
 
 }
+/* tamanhos e alinhamentos do formulário */
 
 
 label{
@@ -46,9 +48,10 @@ label{
     display: block;
     padding: 2px;
 }
+/* Mudança de fontes display e padding. */
 
 
-.caixaForm{
+.formaCaixa{
     display: flex;
     gap: 10px;
     flex-direction: column;
@@ -63,6 +66,7 @@ label{
     
 
 }
+/* Estilização de cores, sombras e bordas. */
 
 
 .mensagem{
@@ -70,27 +74,25 @@ label{
     border-radius: 6px; 
     resize: none;
 }
+/* alteração de borda e altura */
 
-.textename{
+.textename, .texteEmail{
     border-radius: 6px;
     border: none;
 }
+/* Alteração de borda  */
 
-.texteEmail{
-    border-radius: 6px;
-    border: none;
 
-}
-
-.leftbutton{
+.botãoEsquerdo{
     display: flex;
     justify-content: end;
     border-radius: 6px;
     
 }
+/* Alteração de borda e alinhamento do botão. */
 
 
-.button {
+.botão {
     position: relative;
     display: flex;
     gap: 10px;
@@ -105,14 +107,14 @@ label{
     font-size: 1rem;
     color: #facf39;
 }
+/* Estlização do botão e estilização de cores. */
 
-
-.button:hover {
+.botão:hover {
     color: #fff;
     background: rgba(255, 255, 255, 0);
     border: 2px solid #fff;
 }
-
+/* Adicionado hover e estilização de cores. */
 
 
 

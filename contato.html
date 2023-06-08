@@ -36,8 +36,10 @@
   <title>Contato</title>
 </head>
 
-<body>
-  <header>
+<!-- Aqui é a parte do body -->
+<body> 
+  <header> 
+    <!-- Aqui encontra-se o cabeçalho da nossa página -->
     <nav>
       <a id="botoesHeader" href="quemsomos.html">Quem somos</a>
       <a id="botoesHeader" href="equipe.html">Nossa equipe</a>
@@ -53,13 +55,15 @@
     </nav>
   </header>
   <main>
+    <!--Conteúdo da pagina contato.  -->
     <section class="contato">
       <img class="imgHamburgue" src="./css/imagens/photo-1607013251379-e6eecfffe234.avif" alt="hamburguer" />
       <div class="formulario">
+        <!-- Aqui encontra-se todo o conteúdo da parte do formulário -->
         <h2>CONTATO</h2>
-        <form class="caixaForm"  method="-">
+        <form class="formaCaixa"  method="-">
           <fieldset>
-            <label for="name">Nome:</label>
+            <label for="nome">Nome:</label>
             <input class="textename" type="text" id="name" />
           </fieldset>
           <fieldset>
@@ -70,8 +74,9 @@
             <label for="msg">Mensagem:</label>
             <textarea class="mensagem" id="msg"></textarea>
           </fieldset>
-          <div class="leftbutton">
-            <button class="button" onclick="confirmeEmail()">Enviar</button>
+          <!-- Aqui encontra-se o botão de envio de formulário -->
+          <div class="botãoEsquerdo">
+            <button class="botão" onclick="confirmeEmail()">Enviar</button>
           </div>
         </form>
       </div>

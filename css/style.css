@@ -1,9 +1,4 @@
-/* definir estilos iniciais para todos os elementos da página */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import"./reset.css";
 
 /* estilizaçao para ficar responsivo */
 @media(max-width: 100px) {
@@ -60,7 +55,9 @@ a {
     
     
 }
-
+.nomeInvisivel{
+    display: none;
+}
 
 .imagemMain{
     width: 400px;
