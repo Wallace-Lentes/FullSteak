@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat+Alternates&display=swap');
+/* importação de fonte */
 
 body {
     background-color: #C79F61;
 }
+/* cor de fundo da página */
 
 .title {
     display: flex;
@@ -14,12 +16,16 @@ body {
     margin: 20px;
     -webkit-text-stroke: 1px #913301;
 }
+/* estilização do titulo, modificação do tamanho, cor e fonte */
+
 main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+/* disposoção dos objetos na página */
+
 .paragraph {
     font-family: 'Montserrat Alternates', sans-serif;
     color: #1C1C1C;
@@ -32,16 +38,17 @@ main{
     font-size: 20px;
     align-self: self-end;
 }
+/* estilização do páragrafo, fonte, cor, tamanho e disposição */
 
 .images {
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
 }
+/* centralização das fotos*/
 
 .width {
     filter: drop-shadow(11px 10px 15px #00000099);
     width: 200px;
     margin-bottom: 20px;
-
 }
+/* tamanho das imagens + margem no final e sombra de fundo */
