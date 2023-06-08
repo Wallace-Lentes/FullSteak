@@ -36,21 +36,21 @@
       <img class="imgHamburgue" src="./css/imagens/photo-1607013251379-e6eecfffe234.avif" alt="hamburguer" />
       <div class="formulario">
         <h2>CONTATO</h2>
-        <form class="caixaForm" action="-" method="-">
+        <form class="caixaForm"  method="-">
           <fieldset>
             <label for="name">Nome:</label>
             <input class="textename" type="text" id="name" />
           </fieldset>
           <fieldset>
             <label for="mail">E-mail:</label>
-            <input class="texteemail" type="email" id="mail" required/>
+            <input class="texteEmail" type="email" id="mail">
           </fieldset>
           <fieldset>
             <label for="msg">Mensagem:</label>
             <textarea class="mensagem" id="msg"></textarea>
           </fieldset>
           <div class="leftbutton">
-            <button class="button" type="submit">Enviar</button>
+            <button class="button" onclick="confirmeEmail()">Enviar</button>
           </div>
         </form>
       </div>
@@ -65,6 +65,7 @@
     </div>
     <p>Todos os direitos reservados.</p>
   </footer>
+  <script src="./js/contato.js"></script>
 </body>
 
 </html>
