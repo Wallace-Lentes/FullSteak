@@ -15,6 +15,7 @@ body{
 /* inserido display flex na div de conteudo principal para alinhamento  */
 .conteudoprincipal{
     display: flex;
+    min-height: 100vh;
 
 }
 /* inserida imagem de fundo */
@@ -33,6 +34,7 @@ body{
     font-family: 'Bungee Inline', cursive;
     color: #facf39;
     font-size: 4rem;
+    line-height: 7rem;
     margin: 20px;
     -webkit-text-stroke: 1px #913301;
 }
@@ -44,4 +46,5 @@ body{
     font-weight: 600;
     font-size: 1.3rem;
     margin: 9px;
+    padding-left: 10px;
 }

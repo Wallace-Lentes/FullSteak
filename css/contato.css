@@ -8,6 +8,7 @@ fieldset{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 /* Cor de fundo e disposição dos Itens */
 
@@ -60,9 +61,9 @@ label{
     border-radius: 20px;
     box-shadow: 20px 20px 50px rgba(0,0,0, 0.6);
     border-radius: 15px;
-     background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0);
     border-top: 1px solid rgba(255,255,255, 0.5);
-     border-left: 1px solid rgba(255,255,255, 0.5);
+    border-left: 1px solid rgba(255,255,255, 0.5);
     
 
 }
@@ -79,6 +80,7 @@ label{
 .textename, .texteEmail{
     border-radius: 6px;
     border: none;
+    height: 24px;
 }
 /* Alteração de borda  */
 

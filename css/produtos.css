@@ -8,13 +8,13 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  min-height: 100vh;
 }
 
 /* estilização do titulo da section */
 .produto h2 {
   font-size: 4rem;
   font-family: 'Bungee Inline', cursive;
-  /* line-height: 7rem; */
   color: #facf39;
   margin-top: 20px;
   -webkit-text-stroke: 1px #913301;

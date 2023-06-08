@@ -3,6 +3,7 @@
 
 body {
     background-color: #C79F61;
+    height: 100vh;
 }
 /* cor de fundo da página */
 
@@ -23,6 +24,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 /* disposoção dos objetos na página */
 
